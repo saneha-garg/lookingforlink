@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: rgba(1, 7, 27, 0.932);
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     color: antiquewhite;
+     margin: 15px 100px;
+     padding: 15px;
+    
+}
+h2{
+    text-align: center;
+    color: antiquewhite;
+    
+}
+.login{
+    border: 5px solid rgb(173, 173, 173);
+    border-radius: 4px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(13, 10, 26, 0.808);
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover{
+    color: rgb(125, 138, 255);
+}
+input[type="email"],input[type="password"]{
+    padding: 7px;
+    width: 25%;
+    border: 3px solid rgb(173, 173, 173);
+    border-radius: 4px;
+}
+input[type="submit"]{
+    padding: 7px;
+    width: 90px;
+    background-color:antiquewhite ;
+    border: 3px solid rgb(173, 173, 173);
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}

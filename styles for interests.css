@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: rgba(1, 7, 27, 0.932);
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     color: antiquewhite;
+     margin: 15px 100px;
+     padding: 15px;
+}
+h2{
+    text-align: center;
+    color: antiquewhite;
+}
+.box1{
+    border: 5px solid rgb(173, 173, 173);
+    border-radius: 4px;
+    padding: 85px;
+    background-color: rgba(13, 10, 26, 0.808);
+}
+.dropdown-list{
+    padding-top: 10px;
+}
+input[type="submit"]{
+    padding: 7px;
+    width: 90px;
+    background-color:antiquewhite ;
+    border: 3px solid rgb(173, 173, 173);
+    border-radius: 4px;
+    
+}
+input[type="text"]{
+    padding: 7px;
+    width: 35%;
+    border: 3px solid rgb(173, 173, 173);
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+    
